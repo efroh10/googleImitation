@@ -1,7 +1,10 @@
+body    {
+    font-family: sans-serif;
+}
+
 header  {
     width: 100%;
-    padding-top: 10px;
-    height: 40px;
+    padding-top: 15px;
 }
 
 .leftys  {
@@ -22,7 +25,7 @@ header  {
     padding: 0px 10px;
 }
 
-button  {
+.signIn  {
     color: white;
     background-color: #1a73e8;
     width: 90px;
@@ -35,15 +38,101 @@ button  {
 }
 
 .center {
-    height: 33%;
     flex-direction: column;
+    align-items: center;
 }
 
-img {
-    width: 700px;
+.doodle {
+    width: auto;
 }
 
 footer  {
     position: fixed;
     bottom: 0%;
+    height: 50px;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin: none;
+}
+
+a   {
+    text-decoration: none;
+    font-size: 14px;
+    color: #222;
+}
+
+input   {
+    border: 1px solid lightgray;
+    background-image: url(searchEmblem.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 2% 50%;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 600px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+input:hover {
+    box-shadow:10px 10px 5px gray;
+    border: none;
+}
+
+.centerButton   {
+    background-color: #f8f9fa;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.centerButton:hover {
+    border: 1px solid lightgray;
+}
+
+.pointy:hover  {
+    cursor: pointer;
+}
+
+.apps   {
+    position: relative;
+    bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.leafy  {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.footerPadding   {
+    padding: 15px 15px;
+    color: #70757a;
+}
+
+.commitment {
+    width: 300px;
+}
+
+.caption    {
+    visibility: hidden;
+    height: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    opacity: 0.5;
+    font-size: 8px;
+}
+
+.caption:hover  {
+    visibility: visible;
 }
