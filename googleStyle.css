@@ -1,0 +1,49 @@
+header  {
+    width: 100%;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.leftys  {
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.rightys {
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.flexing    {
+    display: flex;
+}
+
+.headerPadding  {
+    padding: 0px 10px;
+}
+
+button  {
+    color: white;
+    background-color: #1a73e8;
+    width: 90px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    bottom: 10px;
+}
+
+.center {
+    height: 33%;
+    flex-direction: column;
+}
+
+img {
+    width: 700px;
+}
+
+footer  {
+    position: fixed;
+    bottom: 0%;
+}
